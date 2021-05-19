@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Index {
     @GetMapping("/test/{name}")
     public String test(@PathVariable("name") String name){
-        return "HEYYY:" + name;
+        return "HOLA TU: " + name + "UWU";
     }
 }
